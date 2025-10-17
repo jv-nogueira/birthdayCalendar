@@ -16,6 +16,8 @@ Exemplo de dados na planilha:
 |-------|--------------------|----------|-----------|----------|
 | Maria | 1990-05-15         | xxxxxxx  | @maria    | fb.com/maria |
 
+Utilize a função =SE(E(A2<>"";B2<>"");A2 & " - " & B2;SE(B2="";A2;B2)) para concatenar a coluna apelido com o nome
+
 ## Configuração
 
 Certifique-se de ter permissões necessárias para acessar a planilha e a API do Google Agenda.
