@@ -12,11 +12,11 @@ Um script para criar eventos de aniversário anuais no Google Agenda, utilizando
 
 Exemplo de dados na planilha:
 
-| Nome  | Data de Nascimento | Whatsapp | Instagram | Facebook |
-|-------|--------------------|----------|-----------|----------|
-| Maria | 1990-05-15         | xxxxxxx  | @maria    | fb.com/maria |
+| First Name  | Birthday    | Mobile Phone | Instagram | Facebook |
+|-------------|-------------|--------------|-----------|----------|
+| Maria       | 1990-05-15  | xxxxxxx      | @maria    | fb.com/maria |
 
-Utilize a função =SE(E(A2<>"";B2<>"");A2 & " - " & B2;SE(B2="";A2;B2)) para concatenar a coluna apelido com o nome
+Utilize a função =SE(E(A2<>"";B2<>"");A2 & " - " & B2;SE(B2="";A2;B2)) para concatenar a coluna do apelido com o nome
 
 ## Configuração
 
